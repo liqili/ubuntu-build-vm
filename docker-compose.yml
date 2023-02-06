@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  ubuntu:
+    build: .
+    # restart: always
+    volumes:
+      - .:/home/dev_space
+
