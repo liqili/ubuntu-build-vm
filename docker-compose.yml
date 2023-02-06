@@ -5,5 +5,5 @@ services:
     build: .
     # restart: always
     volumes:
-      - .:/home/dev_space
+      - ./dev_space:/home/dev_space
 
