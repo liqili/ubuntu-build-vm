@@ -1,6 +1,6 @@
 # ubuntu-build-vm
 
 ```
-docker-compose create --build
+docker-compose up --no-start
 docker-compose run ubuntu
 ```
